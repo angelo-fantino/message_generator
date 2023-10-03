@@ -1,0 +1,103 @@
+/* MAIN SETTINGS */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-color: #ece4dc;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* HEADER */
+header {
+  background-color: #aba49c;
+  padding: 3rem 0rem 3rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+header h1 {
+  color: #555;
+  text-transform: uppercase;
+}
+
+/* MAIN CONTENT */
+main {
+  flex: 1; /* This makes the main section take up remaining vertical space */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  width: 50%;
+}
+
+.messageAuthor {
+  background-color: #ab9d72;
+  padding: 1rem 1rem 1rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  width: 100%;
+  color: #fff;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.messageQuote {
+  background-color: #c6bc9e;
+  padding: 3rem 1rem 3rem;
+  width: 100%;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #555;
+  font-size: 1.4rem;
+  font-style: italic;
+}
+
+.messageButton {
+  background-color: #c6bc9e;
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  width: 100%;
+}
+
+.messageButton button {
+  background-color: #ab9d72;
+  padding: 1rem;
+  border: 1px solid #7a7c61;
+  border-radius: 0.5rem;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.messageButton button:hover {
+  background-color: #c6bc9e;
+}
+
+.messageButton button:active {
+  background-color: #abad8b;
+  color: #555;
+}
+
+/* FOOTER */
+footer {
+  margin-top: auto; /* Push the footer to the bottom */
+  padding: 2rem 0.5rem 2rem;
+  background-color: #9c9481;
+  color: white;
+}

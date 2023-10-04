@@ -27,7 +27,9 @@ let authors = [
 
 // FUNCTION TO GENERATE A NEW MESSAGE
 function generateMessage() {
+  // GENERATE A RANDOM INDEX WITHIN THE RANGE OF THE AUTHORS ARRAY
   let getIndex = Math.floor(Math.random() * authors.length);
+  // OBTAINING THE AUTHOR AND QUOTE USING getIndex
   let randomAuthor = authors[getIndex].author;
   let randomQuote = authors[getIndex].quote;
 
